@@ -8,9 +8,9 @@ public class ValidadorRut {
 
     /**
      *
-     * Valida si el texo está vacío.
+     * Valida si el texo está vacío y si corresponde a un rut real.
      * @param rut RUT de la persona
-     * @return true o false (boolean).
+     * @return true si es RUT real o false si es un RUT incorrecto (boolean).
      */
     public static boolean validar(String rut)  {
         if (rut == null || rut.trim().isEmpty() || !rut.contains("-")) {
