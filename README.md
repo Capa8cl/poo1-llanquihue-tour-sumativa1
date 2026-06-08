@@ -29,8 +29,9 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 
 ---
 
-**Repositorio GitHub:** \[Pega aquí el enlace al repositorio]
-**Fecha de entrega:** \[07/06/2026]
+**Repositorio GitHub:** https://github.com/Capa8cl/poo1-llanquihue-tour-sumativa1
+
+**Fecha de entrega:** 08/06/2026
 
 ---
 
