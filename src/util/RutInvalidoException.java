@@ -6,10 +6,11 @@ package util;
  */
 public class RutInvalidoException extends Exception {
 
-    private static final String MENSAJE_INVALIDO  = "El RUT no es válido.";
+    private static final String MENSAJE_INVALIDO = "El RUT no es válido.";
 
     /**
      * Consutrye nueva excepción con mensaje personalizado.
+     *
      * @param mensaje Detalle del error.
      */
     public RutInvalidoException(String mensaje) {
@@ -19,6 +20,7 @@ public class RutInvalidoException extends Exception {
     /**
      *
      * Excepción de RUT no válido.
+     *
      * @return Mensaje de RUT no válido (El RUT no es válido.).
      */
     public static RutInvalidoException invalido() {

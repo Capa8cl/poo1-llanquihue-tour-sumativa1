@@ -15,14 +15,15 @@ public class Empleado extends Persona {
     /**
      *
      * Constructor del empleado de Llanquihue Tour.
-     * @param nombre Nombre del empleado.
-     * @param apellido apellido del empleado.
-     * @param rut RUT del empleado.
-     * @param telefono Teléfono del empleado.
-     * @param direccion Dirección del empleado.
-     * @param correo Correo electrónico del empleado.
+     *
+     * @param nombre     Nombre del empleado.
+     * @param apellido   apellido del empleado.
+     * @param rut        RUT del empleado.
+     * @param telefono   Teléfono del empleado.
+     * @param direccion  Dirección del empleado.
+     * @param correo     Correo electrónico del empleado.
      * @param idEmpleado Identificador único del empleado.
-     * @param cargo Cargo del empleado.
+     * @param cargo      Cargo del empleado.
      * @throws TextoVacioException Si alguno de los campos de texto obligatorios viene vacío o null.
      */
     public Empleado(String nombre, String apellido, Rut rut, String telefono, Direccion direccion,
@@ -43,6 +44,7 @@ public class Empleado extends Persona {
     /**
      *
      * Muestra la información del empleado.
+     *
      * @return datos del empleado separados por salto de línea.
      */
     public String mostrarEmpleado() {
@@ -56,6 +58,7 @@ public class Empleado extends Persona {
     /**
      *
      * Obtiene el identificador único del Empleado.
+     *
      * @return Identificador único del Empleado
      */
     public String getIdEmpleado() {
@@ -64,6 +67,7 @@ public class Empleado extends Persona {
 
     /**
      * Establece el identificador único del empleado.
+     *
      * @param idEmpleado Establece el identificador único del empleado.
      */
     public void setIdEmpleado(String idEmpleado) {
@@ -73,6 +77,7 @@ public class Empleado extends Persona {
     /**
      *
      * Obtiene el cargo del Empleado.
+     *
      * @return Cargo del Empleado.
      */
     public String getCargo() {
@@ -82,6 +87,7 @@ public class Empleado extends Persona {
     /**
      *
      * Establece el cargo del empleado.
+     *
      * @param cargo Cargo del empleado.
      */
     public void setCargo(String cargo) {

@@ -18,15 +18,16 @@ public class Persona {
     /**
      *
      * Constructor de la persona de Llanquihue Tour.
-     * @param nombre Nombre de la persona.
-     * @param apellido Apellido de la persona.
-     * @param rut Rut de la persona.
-     * @param telefono Teléfono de la persona.
+     *
+     * @param nombre    Nombre de la persona.
+     * @param apellido  Apellido de la persona.
+     * @param rut       Rut de la persona.
+     * @param telefono  Teléfono de la persona.
      * @param direccion Dirección de la persona.
-     * @param correo Correo electrónico de la persona.
+     * @param correo    Correo electrónico de la persona.
      * @throws TextoVacioException Si alguno de los campos de texto obligatorios viene vacío o null.
      */
-    public Persona(String nombre, String apellido, Rut rut, String telefono, Direccion direccion, String correo) throws  TextoVacioException {
+    public Persona(String nombre, String apellido, Rut rut, String telefono, Direccion direccion, String correo) throws TextoVacioException {
         if (ValidadorTextos.textoVacio(nombre)) {
             throw TextoVacioException.vacio("El nombre");
         }
@@ -52,6 +53,7 @@ public class Persona {
     /**
      *
      * Muestra la información de la persona.
+     *
      * @return Datos de la persona separados por salto de línea.
      */
     public String mostrarPersona() {
@@ -68,6 +70,7 @@ public class Persona {
     /**
      *
      * Obtiene el nombre de la persona.
+     *
      * @return Nombre de la persona.
      */
     public String getNombre() {
@@ -77,6 +80,7 @@ public class Persona {
     /**
      *
      * Establece el nombre de la persona.
+     *
      * @param nombre Establece nombre.
      */
     public void setNombre(String nombre) {
@@ -86,6 +90,7 @@ public class Persona {
     /**
      *
      * Obtiene el apellido de la persona.
+     *
      * @return Apellido de la persona.
      */
     public String getApellido() {
@@ -95,6 +100,7 @@ public class Persona {
     /**
      *
      * Establece el apellido de la persona.
+     *
      * @param apellido Establece apellido.
      */
     public void setApellido(String apellido) {
@@ -104,6 +110,7 @@ public class Persona {
     /**
      *
      * Obtiene el RUT de la persona.
+     *
      * @return RUT de la persona.
      */
     public Rut getRut() {
@@ -113,6 +120,7 @@ public class Persona {
     /**
      *
      * Establece el RUT de la persona.
+     *
      * @param rut Establece el RUT.
      */
     public void setRut(Rut rut) {
@@ -122,6 +130,7 @@ public class Persona {
     /**
      *
      * Obtiene el teléfono de la persona.
+     *
      * @return Teléfono de la persona.
      */
     public String getTelefono() {
@@ -131,6 +140,7 @@ public class Persona {
     /**
      *
      * Establece el teléfono de la persona.
+     *
      * @param telefono Establece teléfono.
      */
     public void setTelefono(String telefono) {
@@ -140,6 +150,7 @@ public class Persona {
     /**
      *
      * Obtiene correo de la persona.
+     *
      * @return Correo de la persona.
      */
     public String getCorreo() {
@@ -149,6 +160,7 @@ public class Persona {
     /**
      *
      * Establece correo de la persona.
+     *
      * @param correo Establece correo.
      */
     public void setCorreo(String correo) {
@@ -158,6 +170,7 @@ public class Persona {
     /**
      *
      * Obtiene la dirección de la persona.
+     *
      * @return Dirección de la persona.
      */
     public Direccion getDireccion() {
@@ -167,6 +180,7 @@ public class Persona {
     /**
      *
      * Establece dirección de la persona.
+     *
      * @param direccion Establece dirección.
      */
     public void setDireccion(Direccion direccion) {

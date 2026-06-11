@@ -9,6 +9,7 @@ public class ValidadorTextos {
     /**
      *
      * Valida que el texto no esté vacío.
+     *
      * @param texto Texto a validar.
      * @return Devuelve true si el texto está vacío o es null, devuelve false si tiene contenido.
      */

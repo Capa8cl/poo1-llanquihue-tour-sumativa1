@@ -15,14 +15,15 @@ public class Operador extends Empleado {
     /**
      *
      * Constructor del Operador de Llanquihue Tour.
-     * @param nombre Nombre del operador.
-     * @param apellido Apellido del operador.
-     * @param rut RUT del operador.
-     * @param telefono Teléfono del operador.
-     * @param direccion Dirección del operador.
-     * @param correo Correo electrónico del operador.
-     * @param idEmpleado Identificador único del operador.
-     * @param cargo Cargo del operador.
+     *
+     * @param nombre      Nombre del operador.
+     * @param apellido    Apellido del operador.
+     * @param rut         RUT del operador.
+     * @param telefono    Teléfono del operador.
+     * @param direccion   Dirección del operador.
+     * @param correo      Correo electrónico del operador.
+     * @param idEmpleado  Identificador único del operador.
+     * @param cargo       Cargo del operador.
      * @param zonaTrabajo Zona geográfica en la que trabaja el operador.
      * @throws TextoVacioException Si alguno de los campos de texto obligatorios viene vacío o null.
      */
@@ -40,6 +41,7 @@ public class Operador extends Empleado {
     /**
      *
      * Muestra la información del operador.
+     *
      * @return Datos del operador separados por salto de línea.
      */
     public String mostrarOperador() {
@@ -52,6 +54,7 @@ public class Operador extends Empleado {
     /**
      *
      * Muestra la zona de trabajo del operador.
+     *
      * @return Zona de trabajo del operador.
      */
     public String getZonaTrabajo() {
@@ -61,6 +64,7 @@ public class Operador extends Empleado {
     /**
      *
      * Establece la zona de trabajo del operador.
+     *
      * @param zonaTrabajo Establece la zona de trabajo del operador.
      */
     public void setZonaTrabajo(String zonaTrabajo) {

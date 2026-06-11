@@ -16,6 +16,7 @@ public class Main {
     /**
      *
      * Clase principal del sistema de Llanquihue Tour.
+     *
      * @param args Argumentos.
      */
     public static void main(String[] args) {
@@ -30,14 +31,12 @@ public class Main {
             System.out.println("--- Salida toString Cliente 1 ---");
             System.out.println(cliente1.toString());
             System.out.println();
-        }
-        catch (RutInvalidoException e) {
+        } catch (RutInvalidoException e) {
             System.out.println("---- Error en Cliente 1 ----");
             System.out.println("Error al crear el RUT");
             System.out.println(e.getMessage());
             System.out.println();
-        }
-        catch (TextoVacioException e) {
+        } catch (TextoVacioException e) {
             System.out.println("---- Error en Cliente 1 ----");
             System.out.println("Error al ingresar los datos:");
             System.out.println(e.getMessage());
@@ -53,14 +52,12 @@ public class Main {
             System.out.println("--- Salida toString Guía 1 ---");
             System.out.println(guia1.toString());
             System.out.println();
-        }
-        catch (RutInvalidoException e) {
+        } catch (RutInvalidoException e) {
             System.out.println("---- Error en Guía 1 ----");
             System.out.println("Error al crear el RUT");
             System.out.println(e.getMessage());
             System.out.println();
-        }
-        catch (TextoVacioException e) {
+        } catch (TextoVacioException e) {
             System.out.println("---- Error en Guía 1 ----");
             System.out.println("Error al ingresar los datos:");
             System.out.println(e.getMessage());
@@ -76,14 +73,12 @@ public class Main {
             System.out.println("--- Salida toString Operador 1 ---");
             System.out.println(operador1.toString());
             System.out.println();
-        }
-        catch (RutInvalidoException e) {
+        } catch (RutInvalidoException e) {
             System.out.println("---- Error en Operador 1 ----");
             System.out.println("Error al crear el RUT");
             System.out.println(e.getMessage());
             System.out.println();
-        }
-        catch (TextoVacioException e) {
+        } catch (TextoVacioException e) {
             System.out.println("---- Error en Operador 1 ----");
             System.out.println("Error al ingresar los datos:");
             System.out.println(e.getMessage());
@@ -94,19 +89,17 @@ public class Main {
         try {
             Rut rutProveedor1 = new Rut("91.144.000-8");
             Direccion direccionProveedor1 = new Direccion("Av. El Golf", "40", "Las Condes", "Metropolitana");
-            Proveedor proveedor1 = new Proveedor("Coca Cola",rutProveedor1, "800 21 99 99", direccionProveedor1, "contacto@cocacola.cl", "P12");
+            Proveedor proveedor1 = new Proveedor("Coca Cola", rutProveedor1, "800 21 99 99", direccionProveedor1, "contacto@cocacola.cl", "P12");
 
             System.out.println("--- Salida toString Proveedor 1 ---");
             System.out.println(proveedor1.toString());
             System.out.println();
-        }
-        catch (RutInvalidoException e) {
+        } catch (RutInvalidoException e) {
             System.out.println("---- Error en Proveedor 1 ----");
             System.out.println("Error al crear el RUT");
             System.out.println(e.getMessage());
             System.out.println();
-        }
-        catch (TextoVacioException e) {
+        } catch (TextoVacioException e) {
             System.out.println("---- Error en Proveedor 1 ----");
             System.out.println("Error al ingresar los datos:");
             System.out.println(e.getMessage());

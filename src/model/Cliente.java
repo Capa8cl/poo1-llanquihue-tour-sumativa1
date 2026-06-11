@@ -16,12 +16,13 @@ public class Cliente extends Persona {
     /**
      *
      * Constructor del Cliente de Llanquihue Tour.
-     * @param nombre Nombre del cliente.
-     * @param apellido Apellido del cliente.
-     * @param rut RUT del cliente.
-     * @param telefono Teléfono del cliente.
+     *
+     * @param nombre    Nombre del cliente.
+     * @param apellido  Apellido del cliente.
+     * @param rut       RUT del cliente.
+     * @param telefono  Teléfono del cliente.
      * @param direccion Dirección del cliente.
-     * @param correo Correo electrónico del cliente.
+     * @param correo    Correo electrónico del cliente.
      * @param idCliente ID único del cliente.
      * @throws TextoVacioException Si alguno de los campos de texto obligatorios viene vacío o null.
      */
@@ -38,6 +39,7 @@ public class Cliente extends Persona {
     /**
      *
      * Muestra la información del cliente.
+     *
      * @return Datos del cliente separados por salto de línea.
      */
     public String mostrarCliente() {
@@ -50,6 +52,7 @@ public class Cliente extends Persona {
     /**
      *
      * Obtiene el ID del cliente.
+     *
      * @return ID del cliente.
      */
     public String getIdCliente() {
@@ -59,6 +62,7 @@ public class Cliente extends Persona {
     /**
      *
      * Establece el identificador único del cliente.
+     *
      * @param idCliente Establece el identificador único del cliente.
      */
     public void setIdCliente(String idCliente) {

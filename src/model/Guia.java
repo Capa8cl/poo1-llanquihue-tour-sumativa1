@@ -14,14 +14,15 @@ public class Guia extends Empleado {
     /**
      *
      * Constructor del Guía de Llanquihue Tour.
-     * @param nombre Nombre del guía.
-     * @param apellido Apellido del guía.
-     * @param rut RUT del guía.
-     * @param telefono Teléfono del guía.
-     * @param direccion Dirección del guía.
-     * @param correo Correo electrónico del guía.
-     * @param idEmpleado Identificador único del guía.
-     * @param cargo Cargo del guía.
+     *
+     * @param nombre      Nombre del guía.
+     * @param apellido    Apellido del guía.
+     * @param rut         RUT del guía.
+     * @param telefono    Teléfono del guía.
+     * @param direccion   Dirección del guía.
+     * @param correo      Correo electrónico del guía.
+     * @param idEmpleado  Identificador único del guía.
+     * @param cargo       Cargo del guía.
      * @param certificado Información de la certificación del guía (boolean true / false).
      * @throws TextoVacioException Si alguno de los campos de texto obligatorios viene vacío o null.
      */
@@ -35,6 +36,7 @@ public class Guia extends Empleado {
     /**
      *
      * Muestra la información del guía.
+     *
      * @return Datos del guía separados por salto de línea.
      */
     public String mostrarGuia() {
@@ -54,6 +56,7 @@ public class Guia extends Empleado {
     /**
      *
      * Muestra el estado de la certificación del guía.
+     *
      * @return Estado de la certificación del guía.
      */
     public boolean isCertificado() {
@@ -63,6 +66,7 @@ public class Guia extends Empleado {
     /**
      *
      * Establece el estado de la certificación del guía.
+     *
      * @param certificado Establece el estado de la certificación del guía.
      */
     public void setCertificado(boolean certificado) {
