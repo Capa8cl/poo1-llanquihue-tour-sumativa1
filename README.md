@@ -50,13 +50,6 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 
 ---
 
-### 💻 Opción 1: Desde IntelliJ IDEA (Recomendado)
-1. **Clonar el proyecto:** Abre tu terminal y ejecuta:
-   ```bash
-   git clone https://github.com/Capa8cl/poo1-llanquihue-tour-sumativa1.git]
-
----
-
 ## 🚀 Instrucciones de Ejecución y Compilación
 
 Para clonar, abrir y ejecutar este proyecto localmente, sigue los pasos a continuación:
@@ -66,9 +59,10 @@ Para clonar, abrir y ejecutar este proyecto localmente, sigue los pasos a contin
 * Tener un entorno de desarrollo compatible, idealmente **IntelliJ IDEA**.
 
 ### 💻 Opción 1: Desde IntelliJ IDEA (Recomendado)
-1. **Clonar el proyecto:** Abre tu terminal y clona el repositorio ejecutanodo:
+1. **Clonar el proyecto:** Abre tu terminal y clona el repositorio ejecutando:
    ```bash
    git clone https://github.com/Capa8cl/poo1-llanquihue-tour-sumativa1.git
+   ```
 
 2. Abrir en el IDE: Abre IntelliJ IDEA, selecciona File > Open y elige la carpeta raíz poo1-llanquihue-tour-sumativa1.
 3. Verificar el SDK: Asegúrate de que el proyecto esté asociado a tu JDK 25 en File > Project Structure > Project.
